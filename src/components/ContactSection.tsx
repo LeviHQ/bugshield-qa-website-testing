@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Linkedin, MessageCircle, ArrowRight } from "lucide-react";
+import { Mail, Linkedin, MessageCircle, ArrowRight, Github } from "lucide-react";
 
 const ContactSection = () => {
   const ref = useRef(null);
@@ -68,7 +68,7 @@ const ContactSection = () => {
                   linkedin.com/in/adarsh-jayprakash-mishra
                 </a>
                 <a
-                  href="https://wa.me/919235943357?text=Hi%2C%20I%20want%20to%20test%20my%20website."
+                  href="https://wa.me/919235943357?text=Hi%20I%20want%20to%20test%20my%20website"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -76,11 +76,20 @@ const ContactSection = () => {
                   <MessageCircle className="h-4 w-4 text-primary" />
                   +91 9235943357
                 </a>
+                <a
+                  href="https://github.com/Code-By-Adarsh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Github className="h-4 w-4 text-primary" />
+                  github.com/Code-By-Adarsh
+                </a>
               </div>
             </div>
 
             <a
-              href="https://wa.me/919235943357?text=Hi%2C%20I%20want%20to%20test%20my%20website."
+              href="https://wa.me/919235943357?text=Hi%20I%20want%20to%20test%20my%20website"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
