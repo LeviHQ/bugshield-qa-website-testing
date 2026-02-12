@@ -79,7 +79,7 @@ const ServicesSection = () => {
         </motion.div>
 
         {/* Pricing Cards */}
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto items-stretch">
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}
@@ -87,7 +87,7 @@ const ServicesSection = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.15 }}
               whileHover={{ scale: 1.04, y: -6 }}
-              className={`relative p-8 flex flex-col rounded-xl border backdrop-blur-xl transition-shadow duration-300 ${
+              className={`relative pt-10 px-8 pb-8 flex flex-col rounded-xl border backdrop-blur-xl transition-shadow duration-300 ${
                 plan.popular
                   ? "bg-card/80 border-primary/50 shadow-[0_0_60px_hsl(var(--glow-primary)),0_0_120px_hsl(var(--glow-primary))]"
                   : "bg-card/60 border-border/60 hover:border-primary/30 hover:shadow-[0_0_30px_hsl(var(--glow-primary))]"
@@ -100,19 +100,21 @@ const ServicesSection = () => {
                 </div>
               )}
 
-              {/* Launch Offer Badge */}
-              {plan.bonus && (
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.4, delay: 0.5 + i * 0.15 }}
-                  className="mb-5 flex items-center gap-2 px-3 py-2 rounded-lg bg-accent/10 border border-accent/20 text-xs"
-                >
-                  <Rocket className="h-3.5 w-3.5 text-accent shrink-0" />
-                  <span className="text-accent font-semibold">🚀 Limited Launch Offer:</span>
-                  <span className="text-muted-foreground">{plan.bonus}</span>
-                </motion.div>
-              )}
+              {/* Launch Offer Badge – fixed height so cards align */}
+              <div className="min-h-[3rem] mb-3 flex items-start">
+                {plan.bonus ? (
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={inView ? { opacity: 1, scale: 1 } : {}}
+                    transition={{ duration: 0.4, delay: 0.5 + i * 0.15 }}
+                    className="flex items-center gap-2 px-3 py-2 rounded-lg bg-accent/10 border border-accent/20 text-xs w-full"
+                  >
+                    <Rocket className="h-3.5 w-3.5 text-accent shrink-0" />
+                    <span className="text-accent font-semibold whitespace-nowrap">🚀 Launch Offer:</span>
+                    <span className="text-muted-foreground">{plan.bonus}</span>
+                  </motion.div>
+                ) : null}
+              </div>
 
               <h3 className="text-lg font-semibold mb-2">{plan.name}</h3>
               <div className="mb-6">
