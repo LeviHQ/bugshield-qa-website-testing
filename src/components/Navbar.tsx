@@ -31,7 +31,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-2 text-foreground">
           <Shield className="h-7 w-7 text-primary" />
           <span className="text-xl font-bold">
-            Bug<span className="text-primary">Shield</span> QA
+            Rapid<span className="text-primary">Test</span> QA
           </span>
         </a>
 
