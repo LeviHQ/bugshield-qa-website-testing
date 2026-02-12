@@ -31,12 +31,18 @@ const ContactSection = () => {
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="glass-card p-1 rounded-xl overflow-hidden"
+            className="glass-card p-1 rounded-xl overflow-hidden min-h-[500px] md:min-h-[700px]"
           >
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSfzMyEf-ALWqA72BN1qFDeLMMVLbP2nCYJiDdcAaPhzBV6WBw/viewform?embedded=true"
-              className="w-full h-[700px] rounded-xl bg-card"
+              className="w-full rounded-xl bg-card"
+              style={{ minHeight: '700px', height: '100%', overflow: 'hidden' }}
               title="Contact Form"
+              frameBorder="0"
+              marginHeight={0}
+              marginWidth={0}
+              allowFullScreen
+              loading="lazy"
             >
               Loading…
             </iframe>
