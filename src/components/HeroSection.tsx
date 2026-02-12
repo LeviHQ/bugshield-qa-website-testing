@@ -78,7 +78,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 rounded-2xl glow-blue" />
               <img
                 src={bugReportMockup}
-                alt="BugShield QA - Professional Bug Report Preview"
+                alt="RapidTest QA - Professional Bug Report Preview"
                 className="rounded-2xl border border-white/10 w-full"
               />
             </div>

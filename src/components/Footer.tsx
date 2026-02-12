@@ -8,7 +8,7 @@ const Footer = () => (
           <div className="flex items-center gap-2 mb-3">
             <Shield className="h-5 w-5 text-primary" />
             <span className="font-bold">
-              Bug<span className="text-primary">Shield</span> QA
+              Rapid<span className="text-primary">Test</span> QA
             </span>
           </div>
           <p className="text-sm text-muted-foreground">
@@ -51,7 +51,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-white/5 pt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} BugShield QA. All rights reserved.
+        © {new Date().getFullYear()} RapidTest QA. All rights reserved.
       </div>
     </div>
   </footer>
