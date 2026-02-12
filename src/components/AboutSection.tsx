@@ -1,13 +1,20 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, TestTubeDiagonal, Bug, FileSearch } from "lucide-react";
+import { Code2, TestTubeDiagonal, Bug, FileSearch, Trello, Table, FlaskConical, Wrench, FileCode, Paintbrush } from "lucide-react";
 
 const skills = [
   { icon: TestTubeDiagonal, label: "Manual Testing" },
   { icon: Code2, label: "Selenium" },
   { icon: Bug, label: "Bug Reporting" },
   { icon: FileSearch, label: "Functional Testing" },
+  { icon: Trello, label: "Jira" },
+  { icon: Table, label: "MS Excel" },
+  { icon: FlaskConical, label: "TestNG" },
+  { icon: Wrench, label: "Maven" },
+  { icon: FileCode, label: "POM" },
+  { icon: Code2, label: "HTML" },
+  { icon: Paintbrush, label: "CSS" },
 ];
 
 const AboutSection = () => {
