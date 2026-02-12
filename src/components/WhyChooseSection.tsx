@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { IndianRupee, Zap, FileCheck, UserCheck, ShieldCheck } from "lucide-react";
+import { IndianRupee, Zap, FileCheck, UserCheck, ShieldCheck, ClipboardCheck } from "lucide-react";
 
 const reasons = [
   { icon: IndianRupee, title: "Affordable Pricing", desc: "Quality QA testing starting at just ₹999." },
@@ -8,6 +8,7 @@ const reasons = [
   { icon: FileCheck, title: "Clear Bug Reports", desc: "Professional reports with screenshots and severity levels." },
   { icon: UserCheck, title: "Real Human Testing", desc: "Not automated scans — real, manual, thorough testing." },
   { icon: ShieldCheck, title: "No Bugs = No Charge", desc: "If I find zero bugs, you don't pay a single rupee." },
+  { icon: ClipboardCheck, title: "Structured Testing Approach", desc: "Well-defined test cases, edge-case coverage, and systematic execution." },
 ];
 
 const WhyChooseSection = () => {
