@@ -34,8 +34,8 @@ const ContactSection = () => {
             className="glass-card p-1 rounded-xl overflow-hidden"
           >
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform?embedded=true"
-              className="w-full h-[500px] rounded-xl bg-card"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfzMyEf-ALWqA72BN1qFDeLMMVLbP2nCYJiDdcAaPhzBV6WBw/viewform?embedded=true"
+              className="w-full h-[700px] rounded-xl bg-card"
               title="Contact Form"
             >
               Loading…
