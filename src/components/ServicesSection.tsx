@@ -100,7 +100,7 @@ const ServicesSection = () => {
                 ))}
               </ul>
               <a
-                href="https://wa.me/919235943357?text=Hi%2C%20I%20want%20to%20test%20my%20website."
+                href="https://wa.me/919235943357?text=Hi%20I%20want%20to%20test%20my%20website"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-lg text-center text-sm font-semibold transition-opacity hover:opacity-90 ${

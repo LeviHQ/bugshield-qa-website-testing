@@ -4,7 +4,7 @@ import bugReportMockup from "@/assets/bug-report-mockup.png";
 
 const HeroSection = () => {
   const whatsappUrl =
-    "https://wa.me/919235943357?text=Hi%2C%20I%20want%20to%20test%20my%20website.";
+    "https://wa.me/919235943357?text=Hi%20I%20want%20to%20test%20my%20website";
 
   return (
     <section className="relative min-h-screen flex items-center section-padding pt-32 overflow-hidden">
