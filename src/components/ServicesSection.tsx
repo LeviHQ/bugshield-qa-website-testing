@@ -6,7 +6,7 @@ import PricingComparisonTable from "@/components/PricingComparisonTable";
 const plans = [
   {
     name: "Basic",
-    price: "₹999",
+    price: "₹499",
     color: "from-emerald-500 to-emerald-600",
     features: [
       "1–3 Pages Covered",
@@ -21,7 +21,7 @@ const plans = [
   },
   {
     name: "Standard",
-    price: "₹2,499",
+    price: "₹1,199",
     color: "from-primary to-blue-500",
     features: [
       "Full Website Coverage",
@@ -38,7 +38,7 @@ const plans = [
   },
   {
     name: "Premium",
-    price: "₹4,999",
+    price: "₹1,999",
     color: "from-accent to-purple-600",
     features: [
       "Full Website Coverage",

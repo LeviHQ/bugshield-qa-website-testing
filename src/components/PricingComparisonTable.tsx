@@ -25,9 +25,9 @@ const features: Feature[] = [
 ];
 
 const columns = [
-  { key: "basic" as const, name: "Basic", price: "₹999" },
-  { key: "standard" as const, name: "Standard", price: "₹2,499" },
-  { key: "premium" as const, name: "Premium", price: "₹4,999" },
+  { key: "basic" as const, name: "Basic", price: "₹499" },
+  { key: "standard" as const, name: "Standard", price: "₹1,199" },
+  { key: "premium" as const, name: "Premium", price: "₹1,999" },
 ];
 
 const RenderCell = ({ value }: { value: CellValue }) => {
