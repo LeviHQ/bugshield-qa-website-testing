@@ -17,7 +17,7 @@ const features: Feature[] = [
   { label: "UI Testing", basic: true, standard: true, premium: true },
   { label: "Cross-Browser Testing", basic: false, standard: true, premium: true },
   { label: "Performance Observation", basic: false, standard: false, premium: true },
-  { label: "Bug Report with Screenshots(Only for Jira)", basic: "Basic", standard: "Detailed", premium: "Professional" },
+  { label: "Bug Report with Screenshots (Only for Jira)", basic: "Basic", standard: "Detailed", premium: "Professional" },
   { label: "Severity Classification", basic: true, standard: true, premium: true },
   { label: "Basic Suggestions", basic: false, standard: true, premium: true },
   { label: "Delivery Time", basic: "48 Hours", standard: "48 Hours", premium: "24 Hours" },
