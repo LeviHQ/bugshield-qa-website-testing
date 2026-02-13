@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "How do I pay?",
-    a: "I accept UPI, bank transfer, and PayPal. Payment is due only after you receive and approve the bug report.",
+    a: "I accept secure UPI payments. 50% advance is required to start testing, and the remaining 50% is due upon delivery of the full bug report. Invoice provided for every transaction.",
   },
 ];
 

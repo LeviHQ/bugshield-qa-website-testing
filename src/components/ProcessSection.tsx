@@ -118,6 +118,21 @@ const ProcessSection = () => {
             );
           })}
         </div>
+
+        {/* CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.8 }}
+          className="text-center mt-14"
+        >
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
+          >
+            Start Your Project Now
+          </a>
+        </motion.div>
       </div>
     </section>
   );
