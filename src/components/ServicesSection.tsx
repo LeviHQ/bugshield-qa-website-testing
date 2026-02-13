@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Check, Star, Rocket, Shield, Clock, FileText, Smartphone } from "lucide-react";
+import PricingComparisonTable from "@/components/PricingComparisonTable";
 
 const plans = [
   {
@@ -183,6 +184,8 @@ const ServicesSection = () => {
             </p>
           </div>
         </motion.div>
+
+        <PricingComparisonTable />
       </div>
     </section>
   );
