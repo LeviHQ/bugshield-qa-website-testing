@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { IndianRupee, Zap, FileCheck, UserCheck, ShieldCheck, ClipboardCheck } from "lucide-react";
 
 const reasons = [
-  { icon: IndianRupee, title: "Affordable Pricing", desc: "Quality QA testing starting at just ₹999." },
+  { icon: IndianRupee, title: "Affordable Pricing", desc: "Quality QA testing starting at just ₹499." },
   { icon: Zap, title: "Fast 48-Hour Delivery", desc: "Get your detailed bug report in 2 days or less." },
   { icon: FileCheck, title: "Clear Bug Reports", desc: "Professional reports with screenshots and severity levels." },
   { icon: UserCheck, title: "Real Human Testing", desc: "Not automated scans — real, manual, thorough testing." },

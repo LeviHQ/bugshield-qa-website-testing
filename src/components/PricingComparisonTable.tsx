@@ -12,7 +12,7 @@ interface Feature {
 }
 
 const features: Feature[] = [
-  { label: "Pages Covered", basic: "1–3", standard: "Full Website", premium: "Full Website" },
+  { label: "Pages Covered", basic: "1–5", standard: "Full Website", premium: "Full Website" },
   { label: "Functional Testing", basic: true, standard: true, premium: true },
   { label: "UI Testing", basic: true, standard: true, premium: true },
   { label: "Cross-Browser Testing", basic: false, standard: true, premium: true },
